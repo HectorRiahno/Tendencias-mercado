@@ -34973,7 +34973,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .register-page {
   -ms-flex-align: center;
   align-items: center;
-background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background: #F5F5DC;
 
   display: -ms-flexbox;
   display: flex;
