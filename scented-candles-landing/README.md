@@ -1,137 +1,147 @@
-# 🕯️ LuxeScents - Scented Candles Landing Page
+# 🕯️ LuzAroma - Velas Aromáticas Artesanales
 
-A beautiful, modern landing page for your scented candles entrepreneurship business built with **Vite**, **React**, and **Tailwind CSS**.
+Una hermosa y moderna landing page para tu negocio de velas aromáticas artesanales construida con **Vite**, **React** y **Tailwind CSS**.
 
-## ✨ Features
+## ✨ Características
 
-- **Modern Design**: Clean, elegant design with warm candle-themed colors
-- **Fully Responsive**: Looks great on desktop, tablet, and mobile devices
-- **Smooth Animations**: Hover effects and smooth scrolling navigation
-- **Product Showcase**: Featured collection with product cards
-- **Contact Form**: Professional contact section for customer inquiries
-- **SEO-Friendly**: Semantic HTML structure
-- **Fast Performance**: Built with Vite for lightning-fast development and builds
+- **Diseño Moderno**: Diseño limpio y elegante con colores cálidos inspirados en velas
+- **Completamente Responsivo**: Se ve genial en escritorio, tablet y dispositivos móviles
+- **Animaciones Suaves**: Efectos hover y navegación con scroll suave
+- **Showcase de Productos**: Colección destacada con tarjetas de producto
+- **Sección de Testimonios**: Reseñas de clientes satisfechos
+- **Formulario de Contacto**: Sección profesional para consultas de clientes
+- **SEO-Friendly**: Estructura HTML semántica
+- **Alto Rendimiento**: Construido con Vite para desarrollo y compilación ultra-rápidos
 
-## 🚀 Getting Started
+## 🚀 Comenzando
 
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+### Requisitos Previos
+- Node.js (v14 o superior)
+- npm o yarn
 
-### Installation
+### Instalación
 
-1. **Clone or navigate to the project directory:**
+1. **Navegar al directorio del proyecto:**
    ```bash
    cd scented-candles-landing
    ```
 
-2. **Install dependencies:**
+2. **Instalar dependencias:**
    ```bash
    npm install
    ```
 
-3. **Start the development server:**
+3. **Iniciar el servidor de desarrollo:**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser and visit:**
+4. **Abrir tu navegador y visitar:**
    ```
    http://localhost:5173
    ```
 
-## 🛠️ Available Scripts
+## 🛠️ Scripts Disponibles
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint
+- `npm run dev` - Iniciar servidor de desarrollo
+- `npm run build` - Compilar para producción
+- `npm run preview` - Previsualizar compilación de producción localmente
+- `npm run lint` - Ejecutar ESLint
 
-## 🎨 Customization
+## 🎨 Personalización
 
-### Colors
-The project uses a custom color palette defined in `tailwind.config.js`:
-- **candle-cream**: `#FFF8DC`
-- **candle-gold**: `#DAA520`
-- **candle-amber**: `#FFBF00`
-- **candle-warm**: `#FFF4E6`
+### Marca y Contenido
+Actualiza lo siguiente en `src/App.jsx`:
+- **Nombre del negocio**: Cambia "LuzAroma" por el nombre de tu marca
+- **Información de productos**: Actualiza el array `products` con los detalles de tus velas
+- **Testimonios**: Reemplaza los testimonios con reseñas reales de clientes
+- **Información de contacto**: Reemplaza los detalles de contacto placeholder
+- **Sección Acerca de**: Personaliza tu historia y mensaje de marca
+- **Imágenes**: Reemplaza las URLs placeholder con fotos de tus productos reales
 
-### Content
-Update the following in `src/App.jsx`:
-- **Business name**: Change "LuxeScents" to your brand name
-- **Product information**: Update the `products` array with your candle details
-- **Contact information**: Replace placeholder contact details
-- **About section**: Customize your story and brand message
-- **Images**: Replace Unsplash URLs with your product photos
+### Colores
+El proyecto usa una paleta de colores personalizada centrada en naranja:
+- **Naranja principal**: `orange-500` (#f97316)
+- **Naranja hover**: `orange-600` (#ea580c)
+- **Fondo naranja suave**: `orange-50` (#fff7ed)
 
-### Styling
-- Main styles: `src/index.css`
-- Component-specific styles: `src/App.css`
-- Tailwind configuration: `tailwind.config.js`
+### Estilo
+- Estilos principales: `src/index.css`
+- Estilos específicos del componente: `src/App.css`
+- Configuración de Tailwind: `tailwind.config.js`
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```
 scented-candles-landing/
-├── public/              # Static assets
+├── public/              # Recursos estáticos
 ├── src/
-│   ├── App.jsx         # Main landing page component
-│   ├── App.css         # Component styles
-│   ├── index.css       # Global styles and Tailwind
-│   └── main.jsx        # App entry point
-├── tailwind.config.js   # Tailwind CSS configuration
-├── postcss.config.js    # PostCSS configuration
-└── package.json        # Dependencies and scripts
+│   ├── App.jsx         # Componente principal de la landing page
+│   ├── App.css         # Estilos del componente
+│   ├── index.css       # Estilos globales y Tailwind
+│   └── main.jsx        # Punto de entrada de la app
+├── tailwind.config.js   # Configuración de Tailwind CSS
+├── postcss.config.js    # Configuración de PostCSS
+└── package.json        # Dependencias y scripts
 ```
 
-## 🌟 Sections Included
+## 🌟 Secciones Incluidas
 
-1. **Navigation** - Fixed header with smooth scroll navigation
-2. **Hero Section** - Eye-catching headline with call-to-action buttons
-3. **Features** - Why choose your candles (Natural, Handcrafted, Long-lasting)
-4. **Products** - Featured collection showcase
-5. **About** - Your entrepreneurship story and statistics
-6. **Contact** - Contact form and business information
-7. **Footer** - Brand information and copyright
+1. **Navegación** - Header fijo con navegación responsiva
+2. **Sección Hero** - Titular llamativo con botones de llamada a la acción
+3. **Productos** - Showcase de la colección destacada (4 productos)
+4. **Características** - Por qué elegir LuzAroma (Cera Natural, Larga Duración, etc.)
+5. **Testimonios** - Reseñas de clientes satisfechos con calificación de estrellas
+6. **CTA** - Sección de llamada a la acción con captura de email
+7. **Footer** - Información de la marca, enlaces y contacto
 
-## 📱 Responsive Design
+## 📱 Diseño Responsivo
 
-The landing page is fully responsive and optimized for:
-- **Desktop** (1024px and up)
+La landing page está completamente optimizada para:
+- **Escritorio** (1024px en adelante)
 - **Tablet** (768px - 1023px)
-- **Mobile** (320px - 767px)
+- **Móvil** (320px - 767px)
 
-## 🚀 Deployment
+## 🚀 Despliegue
 
-### Build for Production
+### Compilar para Producción
 ```bash
 npm run build
 ```
 
-### Deploy Options
-- **Netlify**: Connect your GitHub repo for automatic deployments
-- **Vercel**: Perfect for React apps with zero configuration
-- **GitHub Pages**: Free hosting for static sites
-- **Your hosting provider**: Upload the `dist` folder contents
+### Opciones de Despliegue
+- **Netlify**: Conecta tu repo de GitHub para despliegues automáticos
+- **Vercel**: Perfecto para apps React con configuración cero
+- **GitHub Pages**: Hosting gratuito para sitios estáticos
+- **Tu proveedor de hosting**: Sube el contenido de la carpeta `dist`
 
-## 🎯 Next Steps
+## 🎯 Próximos Pasos
 
-To enhance your landing page, consider adding:
-- Shopping cart functionality
-- Payment integration (Stripe, PayPal)
-- Blog section for SEO
-- Customer testimonials
-- Email newsletter signup
-- Social media integration
+Para mejorar tu landing page, considera agregar:
+- Funcionalidad de carrito de compras
+- Integración de pagos (Stripe, PayPal)
+- Sección de blog para SEO
+- Newsletter signup
+- Integración con redes sociales
 - Google Analytics
-- Live chat widget
+- Widget de chat en vivo
+- Galería de productos expandida
+- Sistema de reseñas de clientes
 
-## 📝 License
+## 📝 Tecnologías Utilizadas
 
-This project is open source and available under the [MIT License](LICENSE).
+- **React 18** - Biblioteca de UI
+- **Vite** - Herramienta de compilación
+- **Tailwind CSS** - Framework de CSS utility-first
+- **Lucide React** - Iconos hermosos
+- **PostCSS** - Procesamiento de CSS
+
+## 📝 Licencia
+
+Este proyecto es código abierto y está disponible bajo la [Licencia MIT](LICENSE).
 
 ---
 
-**Happy Selling! 🕯️✨**
+**¡Felices Ventas! 🕯️✨**
 
-*Built with ❤️ for candle entrepreneurs*
+*Hecho con ❤️ para emprendedores de velas aromáticas*
